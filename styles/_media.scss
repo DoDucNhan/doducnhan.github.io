@@ -2,6 +2,19 @@
     padding-left: 0;
 }
 
+
+@media screen and (max-width: 991px) {
+    .send-btn {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .send-btn span {
+        line-height: 50px;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     header {
         padding: 0 !important;
@@ -78,7 +91,7 @@
         padding-bottom: 6rem;
     }
 
-    .section {
+    .container {
         padding: 2rem 2.5rem !important;
     }
 
@@ -157,7 +170,7 @@
 }
 
 @media screen and (max-width:1432px) {
-    .section {
+    .container {
         padding: 7rem 11rem;
     }
 
@@ -246,7 +259,7 @@
 }
 
 @media screen and (max-width:970px) {
-    .section {
+    .container {
         padding: 7rem 6rem;
     }
 
@@ -286,7 +299,7 @@
 }
 
 @media screen and (max-width:700px) {
-    .section{
+    .container{
         padding: 7rem 3rem;
     }
 
